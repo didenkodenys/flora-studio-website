@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'InterDisplay';
+    src: url('fonts/InterDisplay-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background-color: #16160E;
+    color: #C8C2BE;
+    margin: 10px 20px;
+    font-family: 'InterDisplay', sans-serif;
+    font-size: 14px;
+}
+
+.left {
+    width: 98px;
+    margin-right: 10px; /* Убедитесь, что здесь 10px */
+}
+
+.right {
+    width: 217px;
+}
+
+.left p,
+.right p,
+.intro p { /* Добавьте .intro p сюда */
+    margin: 0; /* Убираем все отступы */
+}
+
+.container {
+    width: 453px;
+    margin: 0px; /* Убрать авто-отступы */
+}
+
+.intro {
+    width: 100%;
+    margin-bottom: 20px; /* Убрать отступ снизу для intro */
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Убедитесь, что этот отступ не влияет на элементы */
+}
+
+/* Медиазапрос для ширины экрана 500px и меньше */
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+}
