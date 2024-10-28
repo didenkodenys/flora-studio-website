@@ -15,7 +15,7 @@ body {
 
 .left {
     width: 98px;
-    margin-right: 10px; /* Убедитесь, что здесь 10px */
+    margin-right: 10px;
 }
 
 .right {
@@ -24,18 +24,18 @@ body {
 
 .left p,
 .right p,
-.intro p { /* Добавьте .intro p сюда */
-    margin: 0; /* Убираем все отступы */
+.intro p {
+    margin: 0;
 }
 
 .container {
     width: 453px;
-    margin: 0px; /* Убрать авто-отступы */
+    margin: 0px;
 }
 
 .intro {
     width: 100%;
-    margin-bottom: 20px; /* Убрать отступ снизу для intro */
+    margin-bottom: 20px;
 }
 
 .box {
@@ -43,16 +43,14 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 20px; /* Убедитесь, что этот отступ не влияет на элементы */
+    margin-bottom: 20px;
 }
 
 .right a {
-    text-decoration: none; /* Убирает подчеркивание */
-    color: inherit; /* Наследует цвет родительского элемента */
+    text-decoration: none;
+    color: inherit;
 }
 
-
-/* Медиазапрос для ширины экрана 500px и меньше */
 @media (max-width: 500px) {
     .container {
         width: 100%;
